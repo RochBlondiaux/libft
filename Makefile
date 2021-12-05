@@ -45,7 +45,8 @@ SRCS = ft_bzero.c \
 		ft_strnstr.c \
 		ft_strncmp.c \
 		ft_strrchr.c \
-		ft_memcpy.c
+		ft_memcpy.c \
+		ft_strcmp.c
 
 BONUS_SRCS =  ft_lstnew.c \
 			ft_lstsize.c \

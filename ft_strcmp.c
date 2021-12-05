@@ -1,28 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memset.c                                        :+:      :+:    :+:   */
+/*   ft_strcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: rblondia <rblondia@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/11/02 14:29:37 by rblondia          #+#    #+#             */
-/*   Updated: 2021/12/05 17:41:21 by rblondia         ###   ########.fr       */
+/*   Created: 2021/11/03 11:23:01 by rblondia          #+#    #+#             */
+/*   Updated: 2021/12/05 17:51:54 by rblondia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memset(void *s, int c, size_t n)
+int	ft_strcmp(const char *a, const char *b)
 {
-	size_t			index;
-	unsigned char	*tmp;
+	int	i;
 
-	index = 0;
-	tmp = (unsigned char *) s;
-	while (index < n)
+	if (!a || !b || ft_strlen(a) != ft_strlen(b))
+		return (0);
+	i = -1;
+	while (a[++i])
 	{
-		tmp[index] = (unsigned char) c;
-		index++;
+		if (a[i] != b[i])
+			return (0);
 	}
-	return (tmp);
+	return (1);
 }

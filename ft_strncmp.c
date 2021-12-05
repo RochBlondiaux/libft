@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aleferra <aleferra@student.42lyon.fr>      +#+  +:+       +#+        */
+/*   By: rblondia <rblondia@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/11/03 12:55:44 by aleferra          #+#    #+#             */
-/*   Updated: 2021/11/09 14:49:05 by aleferra         ###   ########.fr       */
+/*   Created: 2021/11/03 12:55:44 by rblondia          #+#    #+#             */
+/*   Updated: 2021/11/09 14:49:05 by rblondia         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
