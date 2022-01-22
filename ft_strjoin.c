@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-char	*ft_strjoin(char const *s1, char const *s2)
+char	*ft_strjoin(char *s1, char *s2)
 {
 	char	*new;
 	int		index;
@@ -35,5 +35,7 @@ char	*ft_strjoin(char const *s1, char const *s2)
 		index++;
 	}
 	new[ft_strlen(s1) + index] = '\0';
+	free(a);
+	free(b);
 	return (new);
 }
